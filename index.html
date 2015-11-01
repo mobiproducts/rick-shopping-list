@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Shopping List</title>
+    <!-- zen ico at tittle tag -->
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/main.css" rel="stylesheet">
+    
+
+        <!-- Wow Animated CSS -->
+    <link rel="stylesheet" href="css/animate.css">
+
+    <!-- font  awsome-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <!-- Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+    
+    <div class="container">
+    
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+
+                    <hr>
+                    <h2 class="intro-text text-center wow slideInDown">
+                        <strong>Rick's Shopping List</strong>
+                    </h2>
+                    <hr>
+                </div>
+                <div class="col-lg-12 col-md-12 col-xs-12">
+                    <div class="input-container text-center">                       
+                        <input type="text" id="item-textbox">
+                        <button type="button"  id="btnAdd" class="btn btn-primary">Add Item</button>
+                        <div id="error">Please Enter a Shopping Item.</div>
+                    </div>
+                </div>
+            
+                <hr>
+                <div class="col-lg-12 col-md-12 col-xs-12" id="list-container">
+                    <ul class="items">
+                        <li class="item">
+                            <span class="checked"></span>Bread<span class="delete"></span>
+                        </li>
+                        
+                    </ul>
+                </div>
+               
+                    
+            </div>
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+   
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center">
+                    <span class="copyright">Copyright © Rick's Shopping List 2015</span>
+                </div>
+                <div class="col-md-6 text-center">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="https://www.facebook.com/" target="blank"><img src="img/facebook-20x20.png" alt=""></a>
+                        </li>
+                        <li><a href="https://twitter.com/" target="blank"><img src="img/twitter-24x20.png" alt=""></i></a>
+                        <li><a href="https://www.pinterest.com/" target="blank"><img src="img/googleplus-20x20.png" alt=""></a>
+                        </li>
+                        <li><a href="https://instagram.com/" target="blank"><img src="img/pinterest-20x20.png" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+   
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+    </script>
+    
+    <script src="js/main.js" type="text/javascript"></script>
+</body>
+
+</html>
